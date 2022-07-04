@@ -6,7 +6,7 @@
 }
 
 .menu {
-  background: linear-gradient( to left, #FF4B6E, #0045FF );
+  background: linear-gradient( to left, #FF3C89, #0045FF );
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -23,3 +23,65 @@
   font-size: 18px;
   color: white;
 }
+
+/**Section One Start From Here**/
+.sec_one {
+  width: 80%;
+  min-height: 800px;
+  margin: auto;
+  display: flex;
+}
+
+.col_one_sec_one {
+  float: left;
+  width: 50%;
+  padding-top: 300px;
+  padding-right: 100px;
+}
+
+h1 {
+  font-size: 65px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+p {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.btn_one {
+  background: linear-gradient( to left, #FF3C89, #0045FF );
+  text-decoration: none;
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 30px;
+}
+
+
+
+.col_two_sec_one {
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
+  padding: auto;
+
+}
+
+@media screen and (max-width: 600px) {
+  .col_two_sec_one {
+    width: 100%;
+  }
+}
+
+.sec_one_image {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  height: 700px;
+  width: 700px;
+  margin-top: 70px;
+}
+
