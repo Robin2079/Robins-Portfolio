@@ -29,27 +29,19 @@
 .sec_one {
   width: 80%;
   min-height: 800px;
+  align-items: center;
   margin: auto;
   display: flex;
 }
 
 .col_one_sec_one {
-  float: left;
   width: 50%;
-  padding-top: 300px;
   padding-right: 100px;
 }
 
 h1 {
   font-size: 65px;
-  margin-left:auto;
-  margin-right:auto;
   display:block;
-}
-
-p {
-  margin-left:auto;
-  margin-right:auto;
 }
 
 .btn_one, .btn_two {
@@ -59,8 +51,8 @@ p {
   color: #ffffff;
   font-size: 17px;
   padding: 10px 30px;
+  margin-bottom: 100px;
 }
-
 
 .col_two_sec_two {
   overflow: hidden;
@@ -68,12 +60,6 @@ p {
   margin: auto;
   padding: auto;
 
-}
-
-@media screen and (max-width: 600px) {
-  .col_two_sec_one {
-    width: 100%;
-  }
 }
 
 .sec_one_image {
@@ -92,28 +78,20 @@ p {
 .sec_two {
   width: 80%;
   min-height: 800px;
+  align-items: center;
   margin: auto;
   display: flex;
 }
 
 .col_one_sec_two {
-  float: left;
   width: 50%;
   padding-top: 300px;
   padding-right: 100px;
-  padding-bottom: 100px;
 }
 
 .col_two_sec_two {
-  overflow: hidden;
   width: 50%;
-  padding-top: 200px;
-}
-
-@media screen and (max-width: 600px) {
-  .col_one_sec_two {
-    width: 100%;
-  }
+  height: min-content;
 }
 
 .sec_two_image {
